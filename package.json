@@ -1,10 +1,41 @@
 {
-  "name": "haxer-games-serv",
+  "name": "haxer_games_server",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": {
+    "name": "Théodore Lefrancois",
+    "email": "theodore.lefrancois2906@gmail.com",
+    "url": "https://github.com/TheodoreLefrancois"
+  },
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT License",
+  "homepage": "https://github.com/TheodoreLefrancois/haxer_games_server#readme",
+  "bugs": {
+    "url": "https://github.com/TheodoreLefrancois/haxer_games_server/issues",
+    "email": "theodore.lefrancois2906@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/TheodoreLefrancois/haxer_games_server"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./eslintrc.js"
+    ]
+  },
+  "markdown": "github",
+  "readme": "https://github.com/TheodoreLefrancois/haxer_games_server#readme",
+  "engines": {
+    "node": "^17.3.0",
+    "yarn": ">=1.22.10"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
